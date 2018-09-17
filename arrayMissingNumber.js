@@ -1,4 +1,4 @@
-const numArray = [0189459, 0189460, 0189461, 0189463, 0189466];
+const numArray = [189459, 189460, 189461, 189463, 189466];
 let mia;
 mia = numArray.reduce(function(accumulator, currentValue, currentIndex, array) {
   const difference = currentValue - array[currentIndex-1];
